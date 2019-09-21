@@ -12,9 +12,11 @@
   "dependencies": {
     "body-parser": "^1.19.0",
     "braces": "^3.0.2",
-    "data-utils": "^0.0.2",
+    "compression": "^1.7.4",
+    "date-utils": "^1.2.21",
     "express": "^4.17.1",
     "express-session": "^1.16.2",
+    "morgan": "^1.9.1",
     "mysql": "^2.17.1",
     "yarn": "^1.17.3"
   },
