@@ -1,0 +1,25 @@
+{
+  "name": "cemi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf ./build && cd backend && yarn build && cd ../frontend && yarn build",
+    "start": "cd ./build/backend/ && yarn && node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeeChaeng/cemi.git"
+  },
+  "keywords": [
+    "cemi"
+  ],
+  "author": "chaeng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeeChaeng/cemi/issues",
+    "email": "htijl@naver.com"
+  },
+  "homepage": "https://github.com/LeeChaeng/cemi#readme"
+}

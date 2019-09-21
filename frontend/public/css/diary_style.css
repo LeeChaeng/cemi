@@ -1,0 +1,120 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+body {
+  background-color: #efe2d2;
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+}
+
+.frame {
+  width: 1520px;
+  height: 670px;
+  background-color: white;
+}
+
+.log-out {
+  float: right;
+  font-family: "Roboto", sans-serif;
+  background: #fff2cc;
+  border: 0;
+  padding: 15px;
+  margin: 0.5%;
+  color: black;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.l_diary {
+  width: 25%;
+  height: 670px;
+  border-right-style: solid;
+  border-right-width: 1px;
+  float: left;
+}
+
+.r_diary {
+  width: 75%;
+  height: 670px;
+  margin-left: 25%;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.remainDiary {
+  width: 90%;
+  height: 87%;
+  margin: 20px;
+  overflow-y: scroll;
+}
+
+.remainDiary a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.drcontent {
+  width: 90%;
+  height: 10%;
+  margin: 20px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.div_head {
+  width: 100%;
+  text-align: center;
+  padding-top: 18px;
+}
+.head {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  text-shadow: #444444 1px 1px 3px;
+  cursor: pointer;
+}
+
+.basic {
+  margin-left: 550px;
+  color: gray;
+}
+
+.inputTitle {
+  width: 750px;
+  height: 40px;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+}
+
+.what {
+  padding: 20px;
+  padding-left: 50px;
+  font-family: "Roboto", sans-serif;
+}
+
+.sch_num {
+  padding: 20px;
+}
+
+.content {
+  font-family: "Roboto", sans-serif;
+}
+
+.lbl {
+  text-decoration: underline;
+  text-decoration-color: #faf58c;
+  text-decoration-style: double;
+}
+
+.save {
+  background-color: #fff2cc;
+  border: 0;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.save_big {
+  padding-left: 750px;
+}

@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "d": "SET NODE_ENV=development && nodemon src/index.js --exec babel-node index.js --presets es2015",
+    "build": "babel src -d ../build/backend --presets es2015 && cp ./package.json ../build/backend"
+  },
+  "author": "chaeng",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "data-utils": "^0.0.2",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "mysql": "^2.17.1",
+    "yarn": "^1.17.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "nodemon": "^1.19.2"
+  }
+}

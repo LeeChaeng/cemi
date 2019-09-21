@@ -1,0 +1,119 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+body {
+  background-color: #efe2d2;
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+}
+
+.frame {
+  width: 1520px;
+  height: 670px;
+  background-color: white;
+}
+
+.log-out {
+  float: right;
+  font-family: "Roboto", sans-serif;
+  background: #fff2cc;
+  border: 0;
+  padding: 15px;
+  margin: 0.5%;
+  color: black;
+  font-size: 14px;
+  cursor: pointer;
+}
+.add_detail {
+  padding: 20px;
+}
+
+.title {
+  padding: 20px;
+}
+
+.inputTitle {
+  width: 750px;
+  height: 40px;
+  font-size: 25px;
+}
+
+.period {
+  padding: 10px;
+}
+
+.txtPeriod {
+  text-decoration: underline;
+  text-decoration-color: #faf58c;
+  text-decoration-style: double;
+}
+
+.date {
+  font-family: "Roboto", sans-serif;
+}
+
+.txtPeriod {
+  padding-right: 20px;
+  padding-left: 10px;
+  float: left;
+}
+
+.txtSecret {
+  padding-right: 20px;
+  padding-left: 10px;
+  text-decoration: underline;
+  text-decoration-color: #faf58c;
+  text-decoration-style: double;
+}
+
+.secret {
+  padding: 10px;
+}
+
+.memo {
+  padding: 10px;
+}
+
+.txtmemo {
+  padding-left: 10px;
+  text-decoration: underline;
+  text-decoration-color: #faf58c;
+  text-decoration-style: double;
+}
+
+.content {
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+.subject {
+  padding: 10px;
+}
+
+.i_subject {
+  padding-left: 10px;
+  padding-right: 20px;
+  text-decoration: underline;
+  text-decoration-color: #faf58c;
+  text-decoration-style: double;
+}
+
+.save {
+  background-color: #fff2cc;
+  border: 0;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.save_big {
+  padding-left: 725px;
+}
+
+.sub_body {
+  height: 60px;
+  padding: 12px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}

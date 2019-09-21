@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="/css/diary_style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="javascript/diary.js"></script>
+  </head>
+
+  <body>
+    <img
+      src="photo/CEMI_logo.png"
+      alt="CEMI_logo"
+      class="logo"
+      onclick="location.href='/main'"
+      style="cursor:pointer"
+    />
+    <button class="log-out" onclick="location.href='/'">로그아웃</button>
+    <div class="frame">
+      <div class="l_diary">
+        <div class="div_head">
+          <a class="head" onclick="print_schedule()">남은 일정 | </a>
+          <a class="head" onclick="write_diary()">작성된 다이어리</a>
+        </div>
+        <div class="remainDiary" id="remainDiary"></div>
+      </div>
+      <div class="r_diary" id="r_diary"><i class="basic">CEMI_DIARY</i></div>
+    </div>
+  </body>
+</html>

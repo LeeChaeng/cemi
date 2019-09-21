@@ -1,0 +1,122 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+body {
+  background-color: #efe2d2;
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+}
+
+.log-out {
+  float: right;
+  font-family: "Roboto", sans-serif;
+  background: #fff2cc;
+  border: 0;
+  padding: 15px;
+  margin: 0.5%;
+  color: black;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.frame {
+  width: 1520px;
+  height: 670px;
+  background-color: white;
+}
+
+.add {
+  font-family: "Roboto", sans-serif;
+  background: #ffd966;
+  width: 94%;
+  border: 0;
+  padding: 15px;
+  margin: 3%;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.rcal {
+  width: 25%;
+  height: 670px;
+  border-right-style: solid;
+  border-right-width: 1px;
+  float: left;
+}
+
+.ccal {
+  width: 94%;
+  height: 250px;
+  margin: 3%;
+  /*border: solid;*/
+  border-width: 1px;
+}
+
+.dcal {
+  width: 94%;
+  height: 200px;
+  margin: 3%;
+  /*border: solid;
+  border-width: 1px;*/
+  text-align: center;
+}
+
+.dcal_in {
+  margin: 1%;
+  width: 100%;
+  height: 160px;
+}
+
+.dcal_cont {
+  padding: 15px;
+}
+
+.dcal_i {
+  text-decoration: underline;
+  text-decoration-color: #faf58c;
+  text-decoration-style: double;
+}
+
+.scal {
+  width: 94%;
+  height: 100px;
+  margin: 3%;
+  text-align: center;
+}
+
+.lcal {
+  width: 75%;
+  height: 670px;
+  margin-left: 25%;
+}
+
+td {
+  font-family: "Roboto", sans-serif;
+  width: 150px;
+  height: 28px;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 8px;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  color: black;
+}
+
+.sub_body {
+  height: 60px;
+  padding: 12px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+.testDiv {
+  width: 100%;
+  height: 25px;
+  margin: 3px;
+}
