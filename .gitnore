@@ -1,3 +1,5 @@
+backend/src/lib/sql.js
+
 /build
 /db
 
@@ -13,4 +15,3 @@ yarn-debug.log*
 yarn-error.log*
 
 *
-backend/src/lib/sql.js
